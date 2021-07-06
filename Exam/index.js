@@ -1,5 +1,5 @@
 import express from 'express';
-import toDoRoute  from './routes/add.route.js';
+import toDoRoute  from './routes/todo.route.js';
 
 const app = express();
 const PORT = 5000;

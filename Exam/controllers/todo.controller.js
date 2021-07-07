@@ -63,7 +63,7 @@ export const updateController = (req,res) =>{
         return res.status(400).json({ message: 'Такая задача отсутствует в списке' })
     } 
 
-    list.isFinished = isFinished;
+    list.isFinished = true;
 
     return res.json({message: `Заметка ${header} завершена`});  
 
